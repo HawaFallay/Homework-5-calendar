@@ -11,7 +11,10 @@ $("#currentDay").text(time)
 // let numDays = new Date (year, month + 1, 0).getDate();
 // return numDays;
 // }//
-
+$("#scheduleClear").on ("click", function(){
+    localStorage.clear()
+    location.reload()
+})
 
 var saveButton = $(".saveBtn");
 console.log (saveButton);
@@ -31,8 +34,8 @@ $("#15 .description").val(localStorage.getItem("15"))
 $("#16 .description").val(localStorage.getItem("16"))
 $("#17 .description").val(localStorage.getItem("17"))
 
-var currentHour= moment.hours()
-
+var currentHour= moment().hours()
+console.log (currentHour)
 $(".time-block").each(function(){
     var divNumber= $(this).attr("id")
     if (divNumber <currentHour){
