@@ -30,3 +30,18 @@ $("#14 .description").val(localStorage.getItem("14"))
 $("#15 .description").val(localStorage.getItem("15"))
 $("#16 .description").val(localStorage.getItem("16"))
 $("#17 .description").val(localStorage.getItem("17"))
+
+var currentHour= moment.hours()
+
+$(".time-block").each(function(){
+    var divNumber= $(this).attr("id")
+    if (divNumber <currentHour){
+        $(this).addClass("past")
+    }
+    else if (divNumber==currentHour){
+        $(this).addClass("present")
+    }
+    else if (divNumber>currentHour){
+        $(this).addClass("future")
+    }
+})
