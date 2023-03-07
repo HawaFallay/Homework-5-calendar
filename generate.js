@@ -17,7 +17,7 @@ $("#scheduleClear").on("click", (any) => {
     });
 
 var saveButton = $(".saveBtn");
-console.log (saveButton);
+console.log(saveButton);
 saveButton.on("click", function(){
     var idValue=$(this).parent().attr("id")
     var texValue=$(this).siblings(".description").val()
@@ -35,7 +35,7 @@ $("#16 .description").val(localStorage.getItem("16"))
 $("#17 .description").val(localStorage.getItem("17"))
 
 var currentHour= moment().hours()
-console.log (currentHour)
+console.log(currentHour);
 $(".time-block").each(function(){
     var divNumber= $(this).attr("id")
     if (divNumber <currentHour){
