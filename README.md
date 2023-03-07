@@ -13,3 +13,6 @@ increments and color coding.
 GitHub LiveLink: https://hawafallay.github.io/Homework-5-calendar/
 
 # SCREENSHOT
+
+![Image of blank calendar.](./images/Screen%20Shot%202023-03-07%20at%2012.31.31%20PM.png)
+![Image of Text fields filled in on calendar.](./images/Screen%20Shot%202023-03-07%20at%2012.33.29%20PM.png)
