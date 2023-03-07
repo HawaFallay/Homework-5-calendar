@@ -5,10 +5,10 @@
 Homework 5- Super Disco- Scheduler
 
 # TABLE OF CONTENTS
-![DESCRIPTION](#description)
-![LINKS](#linkS)
-![SCREENSHOT](#screenshot)
-![QUESTIONS](#questions)
+[DESCRIPTION](#description)
+[LINKS](#linkS)
+[SCREENSHOT](#screenshot)
+[QUESTIONS](#questions)
 
 # DESCRIPTION
 
