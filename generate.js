@@ -1,7 +1,7 @@
 
 // moment
 const time = moment().format("MMMM DD YYYY");
-console.log (time);
+console.log(time);
 $("#currentDay").text(time)
 //let yearChosen = new Date().getFullYear(); // 2023
 // let monthChosen = new Date().getMonth(); // 11
@@ -11,18 +11,18 @@ $("#currentDay").text(time)
 // let numDays = new Date (year, month + 1, 0).getDate();
 // return numDays;
 // }//
-$("#scheduleClear").on ("click", function(){
-    localStorage.clear()
-    location.reload()
-})
+$("#scheduleClear").on("click", (any) => {
+        localStorage.clear();
+        location.reload();
+    });
 
 var saveButton = $(".saveBtn");
 console.log (saveButton);
-saveButton.on("click",function(){
+saveButton.on("click", function(){
     var idValue=$(this).parent().attr("id")
     var texValue=$(this).siblings(".description").val()
     localStorage.setItem(idValue, texValue)
-})
+});
 
 $("#9 .description").val(localStorage.getItem("9"))
 $("#10 .description").val(localStorage.getItem("10"))

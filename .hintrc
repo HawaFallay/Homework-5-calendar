@@ -3,12 +3,6 @@
     "development"
   ],
   "hints": {
-    "axe/parsing": [
-      "default",
-      {
-        "duplicate-id-active": "off"
-      }
-    ],
-    "axe/forms": "off"
+    "axe/name-role-value": "off"
   }
-}
+}/downloads/moment-with-locales.js

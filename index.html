@@ -4,22 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link 
-      rel="stylesheet" 
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      />
-    <link 
-      rel="stylesheet" 
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-      />
-    <link 
-      rel="stylesheet" 
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      />
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"/>
+    
     <!-- link to Bootstrap's CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css"/>
 
     <title>Work Day Scheduler</title>
@@ -40,7 +32,7 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <button id="scheduleClear">Clear My Schedule!</button>
+      <buttton id="scheduleClear">Clear My Schedule!</button>
       <div id="sched-container">
         <div id="sched-header"> 
       <p id="currentDay" class="lead"></p>
@@ -49,63 +41,58 @@
     </div> 
 
     </header>
-    <div class="container">
+    <div class="container"></div>
   
     <!-- Timeblocks go here -->
-
     <div id= "9" class="row time-block">
         <div class="hour col-1"> 9 AM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
-          </div>
+        <button class=" col-1 saveBtn" id="9_"><i class="fas fa-save"></i></button>
           </div>
 
      <div  id= "10" class="row time-block">
         <div class="hour col-1"> 10 AM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
+        <button class=" col-1 saveBtn" id="10_"><i class="fas fa-save"></i></button>
           </div>
-          </div>
-
      <div id= "11" class="row time-block">
         <div class="hour col-1"> 11 AM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
+        <button class=" col-1 saveBtn" id="11_"><i class="fas fa-save"></i></button>
           </div>
-          </div>
-
      <div id= "12" class="row time-block">
         <div class="hour col-1"> 12PM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
-           </div>
-           </div>
-
+        <button class=" col-1 saveBtn" id="12_"><i class="fas fa-save"></i></button>
+          </div>
      <div id= "13" class="row time-block">
         <div class="hour col-1"> 1PM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
+        <button class=" col-1 saveBtn" id="13_"><i class="fas fa-save"></i></button>
            </div>
-           </div>
-
      <div id= "14" class="row time-block">
         <div class="hour col-1"> 2PM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
+        <button class=" col-1 saveBtn" id="14_"><i class="fas fa-save"></i></button>
            </div>
            </div>
-
      <div id= "15" class="row time-block">
         <div class="hour col-1"> 3PM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
-           </div>
+        <button class=" col-1 saveBtn" id="15_"><i class="fas fa-save"></i></buttion>
            </div>
 
      <div id= "16" class="row time-block">
         <div class="hour col-1"> 4PM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
+        <button class=" col-1 saveBtn" id="16_"><i class="fas fa-save"></i></button>
            </div>
-           </div>
-    <div id="17" class="row time-block">
+     <div id="17" class="row time-block">
         <div class="hour col-1"> 5PM</div>
         <textarea type="text" id="g" class="description col-10"></textarea>
+        <button class = "col-1 saveBtn" id="17_"><i class="fas fa-save"></i></button>
            </div>
-           </div>
-
+          </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="generate.js"></script>
